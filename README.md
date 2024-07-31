@@ -40,20 +40,17 @@ Docker (optional)
 Setup
 Clone the repository:
 
-sh
-Copy code
+
 git clone https://github.com/your-username/celebrity-image-generation.git
 cd celebrity-image-generation
 Create a virtual environment and activate it:
 
-sh
-Copy code
+
 python -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 Install dependencies:
 
-sh
-Copy code
+
 pip install -r requirements.txt
 Set up environment variables:
 
@@ -61,8 +58,6 @@ Create a .env file in the root directory and add any necessary configuration var
 
 Run the application:
 
-sh
-Copy code
 flask run
 Access the application:
 
